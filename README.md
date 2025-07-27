@@ -74,7 +74,7 @@ This project is perfect for:
 
 ## 🙌 Author
 
-**Your Name**  
+**Aziz Chniti**  
 [Youtube](https://www.youtube.com/@Barmajli) • [LinkedIn](www.linkedin.com/in/azizchniti)
 
 ---
