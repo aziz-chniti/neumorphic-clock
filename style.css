@@ -1,0 +1,115 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  user-select: none;
+  background: #d1d1d1;
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container{
+  background: linear-gradient(#737373, #232323);
+  width: 260px;
+  height: 520px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 20px #797979, -10px -10px 20px #fff;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  position: relative;
+}
+
+.date{
+  font-size: 32px;
+  color: #ccc;
+  position: relative;
+  top: 20px;
+  text-align: center;
+}
+
+.date span{
+  font-size: 9px;
+  font-weight: 600;
+  position: absolute;
+  top: -5px;
+  right: -20px;
+  color: #0f0f0f;
+}
+.clock{
+  margin-top: 80px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: linear-gradient(#616161, #2c2c2c);
+  box-shadow: -5px -10px 10px #616161, 5px 10px 10px #2c2c2c;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hand{
+  width: 60px;
+  height: 10px;
+  background-color: #a17ff5;
+  border-radius: 5px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(0, -50%) rotateZ(-90deg);
+  transform-origin: left;
+}
+
+.center-dot{
+  width: 12px;
+  height: 12px;
+  box-shadow: 0 0 3px 1px #696969;
+  background: #a17ff5;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.digital-time{
+  margin-top: 60px;
+  font-size: 32px;
+  color: #fff;
+  position: relative;
+}
+.digital-time i{
+  font-size: normal;
+  color: #807e85;
+  font-weight: 600;
+  margin: 0 -5px;
+}
+.digital-time p span{
+  font-size: 10px;
+  margin-left: 6px;
+  position: absolute;
+  color: #807e85;
+  font-weight: 600;
+}
+.unlock{
+  margin-top: auto;
+  font-size: 12px;
+  color: #888;
+  position: relative;
+}
+
+.unlock::after{
+  content: '';
+  display: flex;
+  margin: 6px auto 0;
+  width: 40px;
+  height: 3px;
+  background-color: #444;
+  border-radius: 2px;
+  cursor: pointer;
+}
